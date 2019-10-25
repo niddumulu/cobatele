@@ -3,12 +3,12 @@ import requests
 import time
 import urllib
 
-import config
+#import config
 from dbhelper import DBHelper
 
 db = DBHelper()
 
-TOKEN = config.token
+TOKEN = TOKEN = "875680961:AAGf315uqIwyEankI0lFTN_9H-_ibb3O1nA"
 URL = "https://api.telegram.org/bot{}/".format(TOKEN)
 
 
